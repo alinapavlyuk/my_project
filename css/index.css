@@ -1,15 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Amatic+SC|Caveat');
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
+body {
+  background: url(../img/background2.png);
+}
+
 .main-header {
     width: 100%;
     height: 500px;
-    background-image: url(../img/nature.jpg);
     background-size: cover;
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.index-header {
+    background-image: url(../img/nature1.jpg);
+}
+
+.inspiration-header {
+    background-image: url(../img/nature2.jpg);
+}
+
+.contacts-header {
+    background-image: url(../img/nature3.jpg);
 }
 
 .main-header a {
@@ -18,16 +35,27 @@ html, body {
     font-size: 24px;
     margin: 10px 60px 10px 60px;
     display: inline-block;
-    
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.main-header header {
+.contacts-header a{
+    /*text-shadow: 1px 1px 2px black, 0 0 1em black;*/
+}
+
+.main-header a:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.main-header nav {
     text-align: center;
 }
 
 .header-text {
     color: white;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .big-text{
@@ -45,12 +73,53 @@ html, body {
 }
 .article-header h1{
     font-size:30px;
+    font-family: 'Caveat', cursive;
 }
 
 .main-article{
     text-align: center;
+    clear:both;
 }
 
+.article-photo img {
+   margin-bottom:20px;
+   width:500px;
+}
+
+.first-photo img {
+    float: left;
+    margin-right:10px;
+}
+
+.second-photo img {
+    float:right;
+    margin-left:10px;
+}
 .article-text{
     font-size:20px;
 }
+
+
+.page-footer {
+    text-align: center;
+    clear:both
+}
+.footer-icon {
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 20px;
+}
+.icon-instagram{
+    background-image: url(../img/icon-instagram.png);
+}
+
+.icon-facebook{
+    background-image: url(../img/icon-facebook.png);
+}
+
+.icon-google{
+    background-image: url(../img/icon-google.png);
+}
+
