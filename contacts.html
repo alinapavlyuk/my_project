@@ -22,27 +22,39 @@
         <header class="article-header">
             <h1>Як зв'язатись зі мною?</h1>
         </header>
-        <section class="form">
-            <form method="POST" action="https://formspree.io/YOUR_EMAIL_HERE">
-                <label for="user-name">
-                    Ваше ім'я:
-                    <input id="user-name" name="user-name" type="text">
+        <div class="contact">
+    <form action="#">
+        <fieldset>					
+            <div class="row">
+                <section class="col col-2">
+                    <label class="input">
+                        <i class="fa fa-append fa-user"></i>
+                        <input type="text" placeholder="Ім'я" required>
+                    </label>
+                </section>
+                <section class="col col-2">
+                    <label class="input">
+                        <i class="fa fa-append fa-envelope-o"></i>
+                        <input type="email" placeholder="E-mail" required>
+                    </label>
+                </section>
+            </div>
+            <section>
+                <label class="input">
+                    <i class="fa fa-append fa-tag"></i>
+                    <input type="text" placeholder="Тема">
                 </label>
-                <br>
-                <label>
-                    Ваш емейл:
-                    <input type="email" name="email">
+            </section>               
+            <section>
+                <label class="textarea">
+                    <i class="fa fa-append fa-comment"></i>
+                    <textarea rows="4" placeholder="Повідомлення" required></textarea>
                 </label>
-                <br>
-                <label>
-                    Ваше повідомлення:
-                    <textarea rows="10" cols="45" name="text"></textarea>
-                </label>
-                <br>
-                <input type="submit">
-                <input type="reset">
-            </form>
-        </section>
+            </section>             
+            <button type="submit" class="button">Відправити</button>
+        </fieldset>						
+    </form>
+</div>
     </main>
     <footer class="page-footer">
         <a href="https://www.instagram.com/_alinapavlyuk_/" class="footer-icon icon-instagram"></a>
