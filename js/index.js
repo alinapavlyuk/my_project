@@ -1,4 +1,5 @@
-const overlay = document.querySelector('.overlay');
+(function(){
+    const overlay = document.querySelector('.overlay');
 const imageList = document.querySelectorAll('img');
 let currentFixedImage;
 imageList.forEach(el => el.addEventListener('click', addFixedClasses));
@@ -14,6 +15,7 @@ function addFixedClasses(e) {
     
     image.style.marginLeft = (-imageWidth / 2) + 'px';
     image.style.marginTop = (-imageHeight / 2) + 'px';
+    image.style.cursor = 'default';
     
     
     currentFixedImage = image;
@@ -24,7 +26,9 @@ function removeFixedClasses(e) {
     currentFixedImage.classList.remove('fixed-image');
     currentFixedImage.style.marginLeft = '';
     currentFixedImage.style.marginTop = '';
+    currentFixedImage.style.cursor = 'pointer';
 }
+})();
 
 
 
