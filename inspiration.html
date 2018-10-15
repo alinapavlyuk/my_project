@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Натхнення</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
     <header class="main-header inspiration-header">
-        <nav>
-            <a href="index.html">Головна</a>
-            <a href="inspiration.html">Натхнення</a>
-            <a href="contacts.html">Контакти</a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-layout" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Головна</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="inspiration.html">Натхнення</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Контакти</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <div class="header-text big-text" >
             Натхнення
@@ -24,40 +38,44 @@
     <main class="main-section">
         <article class="main-article">
             <header class="article-header">
-                <h1>Lorem ipsum dolor</h1>
+                <h1>Головні джерела натхнення</h1>
             </header>
             <div class="article-photo first-photo" >
                 <img src="img/girl.jpg" alt="Дівчина">
             </div>
             <div class="article-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore 
-                eu fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum.</p>
+                <p>Ніщо так не надихає людину, як інші люди. 
+                Заводь нові знайомства, спілкуйся, і ідеї будуть 
+                литися з тебе самі собою. Іноді випадкові фрази
+                малознайомих співрозмовників можуть підштовхнути 
+                до життєво важливих рішень.</p>
+                <p>Подорожі – це відкриття світу для себе. 
+                Одне й те саме місце може бути для вас різним кожен раз, 
+                як ви туди приїжджаєте.</p>
+                <p>Подорожі – це шанс здобути нових друзів та пізнати себе. 
+                Не втрачайте цей шанс!</p>
             </div>
         </article>
         <article class="main-article">
             <header class="article-header">
-                <h1>Lorem ipsum dolor</h1>
+                <h1>Фільми</h1>
             </header>
             <div class="article-photo second-photo" >
                 <img src="img/mountain.jpg" alt="Гори">
             </div>
             <div class="article-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore 
-                eu fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum.</p>
+                <p>Якщо ж для відновлення ентузіазму вам досить кількох фільмів, 
+                то ось вам список того, що надихне вас…</p>
+                <ul>
+                    <li>Неймовірне життя Уолтера Мітті</li>
+                    <li>Одержимість</li>
+                    <li>127 годин</li>
+                    <li>Готель "Меріголд" : Кращий з екзотичних</li>
+                    <li>Їж, молись, кохай</li>
+                    <li>Мистецтво подорожувати</li>
+                    <li>В диких умовах</li>
+                    <li>Артефакт</li>
+                </ul>
             </div>
         </article>
     </main>
@@ -68,5 +86,8 @@
     </footer>
     <div class="overlay"></div>
     <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

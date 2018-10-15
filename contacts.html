@@ -10,10 +10,23 @@
 </head>
 <body>
     <header class="main-header contacts-header">
-        <nav>
-            <a href="index.html">Головна</a>
-            <a href="inspiration.html">Натхнення</a>
-            <a href="contacts.html">Контакти</a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-layout" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Головна</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="inspiration.html">Натхнення</a>
+              </li>
+              <li class="nav-item  active">
+                <a class="nav-link" href="contacts.html">Контакти</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <div class="header-text big-text" >
             Контакти
@@ -38,41 +51,9 @@
             <label for="exampleFormControlTextarea1">Повідомлення</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-outline-danger">Відправити</button>
+          <button type="submit" class="btn btn-outline-dark">Відправити</button>
       </form>
-    <!--<form action="https://formspree.io/alino4kap12@gmail.com"-->
-    <!--  method="POST">-->
-    <!--    <fieldset>					-->
-    <!--        <div class="row">-->
-    <!--            <section class="col col-2">-->
-    <!--                <label class="input">-->
-    <!--                    <i class="fa fa-append fa-user"></i>-->
-    <!--                    <input type="text" placeholder="Ім'я" required>-->
-    <!--                </label>-->
-    <!--            </section>-->
-    <!--            <section class="col col-2">-->
-    <!--                <label class="input">-->
-    <!--                    <i class="fa fa-append fa-envelope-o"></i>-->
-    <!--                    <input type="email" placeholder="E-mail" required>-->
-    <!--                </label>-->
-    <!--            </section>-->
-    <!--        </div>-->
-    <!--        <section>-->
-    <!--            <label class="input">-->
-    <!--                <i class="fa fa-append fa-tag"></i>-->
-    <!--                <input type="text" placeholder="Тема">-->
-    <!--            </label>-->
-    <!--        </section>               -->
-    <!--        <section>-->
-    <!--            <label class="textarea">-->
-    <!--                <i class="fa fa-append fa-comment"></i>-->
-    <!--                <textarea rows="4" placeholder="Повідомлення" required></textarea>-->
-    <!--            </label>-->
-    <!--        </section>             -->
-    <!--        <button type="submit" class="button">Відправити</button>-->
-    <!--    </fieldset>						-->
-    <!--</form>-->
-</div>
+    </div>
     </main>
     <footer class="page-footer">
         <a href="https://www.instagram.com/_alinapavlyuk_/" class="footer-icon icon-instagram"></a>

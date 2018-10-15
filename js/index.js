@@ -17,7 +17,6 @@ function addFixedClasses(e) {
     image.style.marginTop = (-imageHeight / 2) + 'px';
     image.style.cursor = 'default';
     
-    
     currentFixedImage = image;
 }
 
